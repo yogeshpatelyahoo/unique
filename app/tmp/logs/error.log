@@ -7453,3 +7453,1384 @@ Request URL: /unique/admin/businessOwners/getProfessionList
 Stack Trace:
 #0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-12-25 01:22:55 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:23:03 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:23:10 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:34:35 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:35:56 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:36:19 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:37:26 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:38:11 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:50:02 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:50:09 Error: [MissingActionException] Action CandidatesController::admin_downloadResume() could not be found.
+Exception Attributes: array (
+  'controller' => 'CandidatesController',
+  'action' => 'admin_downloadResume',
+)
+Request URL: /unique/admin/candidates/downloadResume/31PL18Sj2GqI52wIxNy0GdSNT9GsD21vaBXMjSTN-Tw
+Stack Trace:
+#0 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CandidatesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-25 01:50:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:50:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:50:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:50:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:50:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:50:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:50:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:50:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:50:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:50:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:50:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:50:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:55:02 Error: [NotFoundException] The requested file C:\xampp\htdocs\unique\app\http://localhost/unique/uploads/resumes/1482541601_eshajulkaresume.docx was not found or not readable
+Request URL: /unique/admin/candidates/downloadResume/31PL18Sj2GqI52wIxNy0GdSNT9GsD21vaBXMjSTN-Tw
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\Controller\CandidatesController.php(225): CakeResponse->file('http://localhos...', Array)
+#1 [internal function]: CandidatesController->admin_downloadResume('31PL18Sj2GqI52w...')
+#2 C:\xampp\htdocs\unique\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CandidatesController), Array)
+#3 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CandidatesController), Object(CakeRequest))
+#5 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-12-25 01:55:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:55:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:55:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:55:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:55:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:55:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:55:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:55:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:55:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:55:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:55:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:55:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:55:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:56:48 Error: [NotFoundException] The requested file C:\xampp\htdocs\unique\app\http://localhost/unique/uploads/resumes/1482541601_eshajulkaresume.docx was not found or not readable
+Request URL: /unique/admin/candidates/downloadResume/31PL18Sj2GqI52wIxNy0GdSNT9GsD21vaBXMjSTN-Tw
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\Controller\CandidatesController.php(225): CakeResponse->file('http://localhos...', Array)
+#1 [internal function]: CandidatesController->admin_downloadResume('31PL18Sj2GqI52w...')
+#2 C:\xampp\htdocs\unique\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CandidatesController), Array)
+#3 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CandidatesController), Object(CakeRequest))
+#5 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-12-25 01:56:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:56:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:56:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:56:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:56:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:56:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:56:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:56:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:56:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:56:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:56:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 01:56:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:06:40 Error: [NotFoundException] The requested file C:\xampp\htdocs\unique\app\http://localhost/unique/uploads/resumes/1482541601_eshajulkaresume.docx was not found or not readable
+Request URL: /unique/admin/candidates/downloadResume/31PL18Sj2GqI52wIxNy0GdSNT9GsD21vaBXMjSTN-Tw
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\Controller\CandidatesController.php(226): CakeResponse->file('http://localhos...', Array)
+#1 [internal function]: CandidatesController->admin_downloadResume('31PL18Sj2GqI52w...')
+#2 C:\xampp\htdocs\unique\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CandidatesController), Array)
+#3 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CandidatesController), Object(CakeRequest))
+#5 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-12-25 02:06:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:06:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:06:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:06:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:06:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:06:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:06:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:06:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:06:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:06:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:06:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:06:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:06:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:07:43 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:09:18 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:09:21 Error: [NotFoundException] The requested file C:\xampp\htdocs\unique\app\http://localhost/unique/uploads/resumes/1482541601_eshajulkaresume.docx was not found or not readable
+Request URL: /unique/admin/candidates/downloadResume/31PL18Sj2GqI52wIxNy0GdSNT9GsD21vaBXMjSTN-Tw
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\Controller\CandidatesController.php(227): CakeResponse->file('http://localhos...', Array)
+#1 [internal function]: CandidatesController->admin_downloadResume('31PL18Sj2GqI52w...')
+#2 C:\xampp\htdocs\unique\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CandidatesController), Array)
+#3 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CandidatesController), Object(CakeRequest))
+#5 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-12-25 02:09:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:09:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:09:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:09:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:09:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:09:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:09:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:09:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:09:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:09:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:09:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:09:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:41 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:42 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:45 Error: [NotFoundException] The requested file C:\xampp\htdocs\unique\app\http://localhost/unique/uploads/resumes/1482541601_eshajulkaresume.docx was not found or not readable
+Request URL: /unique/admin/candidates/downloadResume/31PL18Sj2GqI52wIxNy0GdSNT9GsD21vaBXMjSTN-Tw
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\Controller\CandidatesController.php(227): CakeResponse->file('http://localhos...', Array)
+#1 [internal function]: CandidatesController->admin_downloadResume('31PL18Sj2GqI52w...')
+#2 C:\xampp\htdocs\unique\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CandidatesController), Array)
+#3 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CandidatesController), Object(CakeRequest))
+#5 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-12-25 02:11:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:11:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:12:48 Error: [NotFoundException] The requested file C:\xampp\htdocs\unique\app\http://localhost/unique/uploads/resumes/1482541601_eshajulkaresume.docx was not found or not readable
+Request URL: /unique/admin/candidates/downloadResume/31PL18Sj2GqI52wIxNy0GdSNT9GsD21vaBXMjSTN-Tw
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\Controller\CandidatesController.php(227): CakeResponse->file('http://localhos...', Array)
+#1 [internal function]: CandidatesController->admin_downloadResume('31PL18Sj2GqI52w...')
+#2 C:\xampp\htdocs\unique\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CandidatesController), Array)
+#3 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CandidatesController), Object(CakeRequest))
+#5 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-12-25 02:12:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:12:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:12:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:12:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:12:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:12:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:12:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:12:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:12:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:12:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:12:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:12:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:12:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:13:56 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:15:40 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:16:13 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:22:07 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:27:01 Error: [MissingActionException] Action CompaniesController::admin_addCompany() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompaniesController',
+  'action' => 'admin_addCompany',
+)
+Request URL: /unique/admin/companies/addCompany
+Stack Trace:
+#0 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CompaniesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-25 02:27:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:27:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:27:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:27:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:27:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:27:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:27:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:27:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:27:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:27:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:27:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:27:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:35:44 Error: [MissingModelException] Company
+Request URL: /unique/admin/companies
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\Controller\CompaniesController.php(79): PaginatorComponent->paginate('Company')
+#1 [internal function]: CompaniesController->admin_index()
+#2 C:\xampp\htdocs\unique\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CompaniesController), Array)
+#3 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CompaniesController), Object(CakeRequest))
+#5 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-12-25 02:35:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:35:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:35:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:35:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:35:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:35:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:35:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:35:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:35:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:35:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:35:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:35:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:35:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:36:36 Error: [MissingModelException] Company
+Request URL: /unique/admin/companies
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\Controller\CompaniesController.php(79): PaginatorComponent->paginate('Company')
+#1 [internal function]: CompaniesController->admin_index()
+#2 C:\xampp\htdocs\unique\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CompaniesController), Array)
+#3 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CompaniesController), Object(CakeRequest))
+#5 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-12-25 02:36:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:36:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+#1 {main}
+2016-12-25 02:36:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:36:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:36:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:36:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:36:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:36:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:36:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:36:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:36:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 02:36:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

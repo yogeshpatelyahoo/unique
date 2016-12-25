@@ -14,10 +14,10 @@
                 <i class="clip-file"></i>
                 <?php echo $this->Html->link('Users', array('controller' => 'advertisements', 'action' => 'index', 'admin' => true)); ?>
             </li>
-            <li class="active"><?php echo __("Add User");?></li>
+            <li class="active"><?php echo __("Add Candidate");?></li>
         </ol>
         <div class="page-header">
-            <?php echo $this->Html->tag('h1','Edit User'); ?>
+            <?php echo $this->Html->tag('h1','Add Candidate'); ?>
         </div>
         <!-- end: PAGE TITLE & BREADCRUMB -->
     </div>
@@ -29,12 +29,11 @@
         <!-- start: FORM WIZARD PANEL -->
         <div class="panel panel-default">
             <div class="panel-body">
-                <?php echo $this->Form->create('Candidate', array('url' => array('controller' => 'candidates', 'action' => 'edit', 'admin' => true, $id), 'class' => 'smart-wizard form-horizontal', 'id' => 'addUsersForm', 'novalidate'=>'true', 'type' => 'file','inputDefaults' => array('errorMessage' => true))); ?>
-                <?php echo $this->Form->hidden('Candidate.id');?>
+                <?php echo $this->Form->create('Candidate', array('url' => array('controller' => 'candidates', 'action' => 'addCandidate', 'admin' => true), 'class' => 'smart-wizard form-horizontal', 'id' => 'addCandidateForm', 'novalidate'=>'true', 'type' => 'file','inputDefaults' => array('errorMessage' => true))); ?>
                 <div id="wizard" class="swMain">
                     
 
-                   <div class="form-group">
+                    <div class="form-group">
                             <?php echo $this->Form->label('', 'First Name'.$this->Html->tag('span', '', array('class' => 'symbol required')), array('class' => 'col-sm-3 control-label')); ?>
                         <div class="col-sm-7">
                             <?php echo $this->Form->input('Candidate.fname', array('label' => false, 'class' => 'form-control', 'id' => 'fname', 'placeholder'=>'First Name'));?>
@@ -51,7 +50,7 @@
                     <div class="form-group">
                             <?php echo $this->Form->label('', 'Email'.$this->Html->tag('span', '', array('class' => 'symbol required')), array('class' => 'col-sm-3 control-label')); ?>
                         <div class="col-sm-7">
-                            <?php echo $this->Form->input('Candidate.email_id', array('label' => false, 'class' => 'form-control', 'id' => 'email_id', 'placeholder'=>'User Email', 'type'=>'email', 'disabled'=>true));?>
+                            <?php echo $this->Form->input('Candidate.email_id', array('label' => false, 'class' => 'form-control', 'id' => 'email_id', 'placeholder'=>'User Email', 'type'=>'email'));?>
                         </div>
                     </div>
                      
@@ -66,7 +65,7 @@
                             <?php echo $this->Form->label('', 'Category'.$this->Html->tag('span', '', array('class' => 'symbol required')), array('class' => 'col-sm-3 control-label')); ?>
                         <div class="col-sm-7">
                        
-                            <?php echo $this->Form->select('Candidate.category_id', $categories, array('label' => false, 'class' => 'form-control', 'id' => 'category_id','empty'=>false, 'selected'=>''));?>
+                            <?php echo $this->Form->select('Candidate.category_id', $categories, array('label' => false, 'class' => 'form-control', 'id' => 'category_id','empty'=>false));?>
                         </div>
                     </div> 
                     
@@ -75,8 +74,7 @@
                         <div class="col-sm-7">
                             <?php echo $this->Form->textarea('Candidate.comment', array('label' => false, 'class' => 'form-control', 'id' => 'comment', 'placeholder'=>'Comment'));?>
                         </div>
-                    </div>  
-                    
+                    </div> 
                     <div class="form-group">
                         <?php echo $this->Form->label('', 'Upload a Resume' . $this->Html->tag('span', '', array('class' => 'symbol required', 'for' => 'resume')), array('class' => 'col-sm-3 control-label')); ?>
                         <div class="col-sm-7">                            
@@ -105,15 +103,7 @@
                             <label class="error" for='deshdash' style="display: none">Please select a valid video file</label>
                             <span class="error_msg" style="color: red"><?php echo $error = isset($errormsg) ? $errormsg : ""; ?></span>
                         </div>
-                    </div>  
-                    
-                    <div class="form-group">
-                            <?php echo $this->Form->label('', 'Current Resume in our Records'.$this->Html->tag('span', '', array('class' => 'symbol required')), array('class' => 'col-sm-3 control-label')); ?>
-                        <div class="col-sm-7">
-                        <?php $filename = substr($this->request->data['Candidate']['resume_file'], strpos($this->request->data['Candidate']['resume_file'], '_')+1);?>
-                            <?php echo $this->Html->link($filename, array('controller' => 'candidates', 'action' => 'downloadResume', 'admin' => true, $this->request->data['Candidate']['id']), array('target'=>'_blank')); ?>
-                        </div>
-                    </div>           
+                    </div>        
                                
                     <div class="form-group">
                         <div class="col-sm-2 col-sm-offset-8">

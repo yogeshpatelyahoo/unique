@@ -5,7 +5,7 @@
  * 
  */
 App::uses('Email', 'Lib');
-class CandidatesController extends AppController 
+class CompaniesController extends AppController 
 {
     public $includePageJs='';
     public $breezSessionData = '';
@@ -24,7 +24,7 @@ class CandidatesController extends AppController
      * @var array
      * @access public
      */
-    public $uses = array('Candidate', 'ProfessionCategory');
+    public $uses = array('Candidate', 'ProfessionCategory', 'Company');
     
     /**
      * callback function
@@ -56,7 +56,7 @@ class CandidatesController extends AppController
     	$page = $this->Functions->get_param('page', Configure::read('PAGE_NO'), false);
     	$counter = (($page - 1) * $perpage) + 1;
     	$this->set('counter', $counter);
-    	 
+    	
     	$search = $this->Functions->get_param('search');
     	$this->Functions->set_param('direction');
     	$this->Functions->set_param('sort');
@@ -67,7 +67,7 @@ class CandidatesController extends AppController
     	}
     	
     	if ($search != '') {
-    		$condition = array('CONCAT(Candidate.fname," ",Candidate.lname) LIKE' => '%' . $search . '%');
+    		$condition = array('Company.name LIKE' => '%' . $search . '%');
     	} else {
     		$condition = array();
     	}
@@ -76,8 +76,8 @@ class CandidatesController extends AppController
     			'order' => $order,
     			'limit' =>$perpage
     	);
-    	$candidates = $this->Paginator->paginate('Candidate');
-    	$this->set(compact('candidates'));
+    	$companies = $this->Paginator->paginate('Company');
+    	$this->set(compact('companies'));
     	if ($this->request->is('ajax')) {
     		$this->layout = false;
     		$this->set('perpage', $perpage);

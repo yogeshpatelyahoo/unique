@@ -63,6 +63,21 @@
                     </li>
                 </ul>
             </li>
+            
+            <li <?php if($this->params['controller']=="companies"){ ?>class="active"<?php }?>>
+    
+                <?php
+                echo $this->Html->link('<i class="fa fa-youtube-play"></i><span class="title"> Companies </span><i class="icon-arrow"></i><span class="selected"></span>', '#', array('escape' => false));
+                ?>
+                <ul class="sub-menu" >
+                    <li <?php if($this->params['controller']=="companies" && $this->params['action']=="admin_index"){ ?>class="active"<?php }?>>
+                       <?php echo $this->Html->link('<span class="title"> Companies List </span>', array('controller' => 'companies', 'action' => 'index'), array('escape' => false));?>
+                    </li>
+                    <li <?php if($this->params['controller']=="candidates" && $this->params['action']=="admin_addCandidate"){ ?>class="active"<?php }?>>
+                       <?php echo $this->Html->link('<span class="title"> Add Company</span>', array('controller' => 'companies', 'action' => 'addCompany','admin'=>true), array('escape' => false));?>
+                    </li>
+                </ul>
+            </li>
           
             
 
