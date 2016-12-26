@@ -87,7 +87,7 @@ class CompaniesController extends AppController
     }
   
     
-	 public function admin_addCandidate()
+	 public function admin_addCompany()
 	 {
 	 	$categories = $this->ProfessionCategory->find('list');
 	 	$this->set(compact('categories'));

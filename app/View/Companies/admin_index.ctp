@@ -20,7 +20,7 @@
                 <i class="clip-file"></i>
                 <?php echo $this->Html->link('Users', array('controller' => 'candidates', 'action' => 'index', 'admin' => true));?>
             </li>
-            <li class="active">Candidates List</li>
+            <li class="active">Companies List</li>
             <li class="search-box">
             <form class="sidebar-search">
                 <div class="form-group">

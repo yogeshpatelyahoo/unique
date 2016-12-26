@@ -45,7 +45,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 	background-color: #FFFFFF;
 	border: 1px solid #D5D5D5;
 	border-radius: 0 0 0 0 !important;
-	color: #3e3e3e;
+	color: #858585;
 	font-family: inherit;
 	font-size: 14px;
 	line-height: 1.2;
@@ -1225,7 +1225,7 @@ color: #AAAAAA !important;
 /*	Main Container and main content elements
 /* ---------------------------------------------------------------------- */
 .main-container {
-	margin-top: 67px;
+	margin-top: 48px;
 }
 .header-default .main-container {
 	margin-top: 0 !important;

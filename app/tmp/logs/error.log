@@ -8834,3 +8834,2158 @@ Request URL: /unique/js/Front/jquery.easing.min.js
 Stack Trace:
 #0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-12-25 03:33:11 Error: [MissingViewException] View file "Companies\admin_add_company.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Companies\\admin_add_company.ctp',
+)
+Request URL: /unique/admin/companies/addCompany
+Stack Trace:
+#0 C:\xampp\htdocs\unique\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\unique\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\unique\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CompaniesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-12-25 03:33:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:33:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:33:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:33:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:33:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:33:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.form.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:33:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:33:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/front_validation.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:33:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:33:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/infinitescroll.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:33:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap-multiselect.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:33:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:33:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/Front/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:33:44 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:34:28 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:40:25 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:40:44 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:43:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/css/bootstrap-tagsinput.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:43:34 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:43:51 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:46:00 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:46:30 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:49:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:53:10 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:53:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:54:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 03:54:25 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:29:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/fonts/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:29:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/developer.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:29:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/jQueryUI.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:29:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:30:00 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/iCheck/jquery.icheck.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/jquery.mousewheel.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/less/less-1.5.0.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-cookie/jquery.cookie.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/jQueryUI.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:38 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/ladda-bootstrap/dist/ladda.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:38 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/ladda-bootstrap/dist/spin.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:38 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/select2/select2.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:38 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-validation/dist/additional-methods.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:38 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:38 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:38 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/js/bootstrap-modal.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:38 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:38 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:39 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/iCheck/jquery.icheck.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:39 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/jquery.mousewheel.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:39 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:39 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/less/less-1.5.0.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:39 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-cookie/jquery.cookie.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:40 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:40 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/ladda-bootstrap/dist/spin.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:40 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/ladda-bootstrap/dist/ladda.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:40 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:40 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-validation/dist/additional-methods.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/select2/select2.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/js/bootstrap-modal.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/jQueryUI.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.woff
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:42:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-validation/dist/additional-methods.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/main.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/jQueryUI.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+ct(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/select2/select2.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/js/bootstrap-modal.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/main.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-validation/dist/additional-methods.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/select2/select2.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/js/bootstrap-modal.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/jQueryUI.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.woff
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:05 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:44:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/main.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/ui-modals.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/jQueryUI.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/ellipse.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/main.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/ui-modals.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/ellipse.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/jQueryUI.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.woff
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:32 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:45:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:46:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/jQueryUI.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:46:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:46:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/ui-modals.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:46:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:46:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:46:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/ui-modals.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:46:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/jQueryUI.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:46:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.woff
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:46:35 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:46:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/jQueryUI.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/jQueryUI.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.woff
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:46 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/jQueryUI.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/jQueryUI.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.woff
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:50 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:47:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:49:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:49:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:49:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:49:04 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:49:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.woff
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:49:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:49:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:50:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:50:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:50:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:50:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.woff
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:50:25 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:50:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:50:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:50:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:50:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:50:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.woff
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:50:28 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:50:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/js/bootstrap-tagsinput.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.woff
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:17 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/build/fonts/clip-font.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/iCheck/skins/all.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-colorpalette/css/bootstrap-colorpalette.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/select2/select2.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/fonts/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/developer.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/ladda-bootstrap/dist/ladda-themeless.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/css/bootstrap-modal.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/blockUI/jquery.blockUI.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/jquery.mousewheel.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/iCheck/jquery.icheck.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-cookie/jquery.cookie.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/js/main.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/less/less-1.5.0.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/ladda-bootstrap/dist/spin.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+sponse))
+#1 {main}
+2016-12-25 04:52:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/ladda-bootstrap/dist/ladda.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+)
+#1 {main}
+2016-12-25 04:52:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+ect(CakeResponse))
+#1 {main}
+2016-12-25 04:52:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-validation/dist/additional-methods.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/js/ellipse.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/js/ui-modals.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/blockUI/jquery.blockUI.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:52:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/iCheck/jquery.icheck.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:00 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/jquery.mousewheel.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:00 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:00 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/less/less-1.5.0.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:00 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-cookie/jquery.cookie.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:00 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/js/main.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/ladda-bootstrap/dist/spin.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/iCheck/skins/all.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-colorpalette/css/bootstrap-colorpalette.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/fonts/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/select2/select2.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/css/bootstrap-modal.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/iCheck/jquery.icheck.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/ladda-bootstrap/dist/ladda-themeless.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/jquery.mousewheel.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/blockUI/jquery.blockUI.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/ladda-bootstrap/dist/spin.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-cookie/jquery.cookie.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/js/main.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/less/less-1.5.0.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-validation/dist/additional-methods.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/ladda-bootstrap/dist/ladda.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/select2/select2.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/js/bootstrap-modal.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/js/ui-modals.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+st), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/js/ellipse.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/blockUI/jquery.blockUI.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/iCheck/jquery.icheck.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/jquery.mousewheel.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/less/less-1.5.0.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-cookie/jquery.cookie.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/js/main.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/ladda-bootstrap/dist/spin.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/ladda-bootstrap/dist/ladda.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-validation/dist/jquery.validate.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/jquery-validation/dist/additional-methods.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/select2/select2.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/js/table-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/js/bootstrap-modal.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/js/ui-modals.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:07 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:53:07 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /unique/assets/js/ellipse.js
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:54:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /unique/css/developer.css
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-25 04:54:14 Error: [MissingControllerException] Controller class BusinessOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /unique/admin/businessOwners/getProfessionList
+Stack Trace:
+#0 C:\xampp\htdocs\unique\app\webroot\index.php(132): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
