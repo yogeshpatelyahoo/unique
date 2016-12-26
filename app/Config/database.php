@@ -72,7 +72,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'foxhopr_testing',
+		'database' => 'unique',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
