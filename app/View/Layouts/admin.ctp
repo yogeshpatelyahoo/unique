@@ -21,6 +21,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
         <?php
 //      start: MAIN CSS
         echo $this->Html->css('../assets/plugins/bootstrap/css/bootstrap.min');
+        echo $this->Html->css('bootstrap-tagsinput');
+        
         echo $this->Html->css('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
         echo $this->Html->css('../assets/fonts/style');
         echo $this->Html->css('../assets/css/main');
@@ -42,6 +44,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
         echo $this->Html->script('http://code.jquery.com/ui/1.11.4/jquery-ui.js');
         echo $this->Html->script('../assets/plugins/bootstrap/js/bootstrap.min');
         echo $this->Html->script('../assets/plugins/blockUI/jquery.blockUI');
+        echo $this->Html->script('bootstrap-tagsinput.min.js');
         echo $this->Html->script('../assets/plugins/iCheck/jquery.icheck.min');
         echo $this->Html->script('../assets/plugins/perfect-scrollbar/src/jquery.mousewheel');
         echo $this->Html->script('../assets/plugins/perfect-scrollbar/src/perfect-scrollbar');

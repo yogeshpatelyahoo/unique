@@ -75,7 +75,7 @@ class CategoriesController extends AppController
                 $this->ProfessionCategory->create();
                 if ($this->ProfessionCategory->save($this->request->data)) {
                     $this->Session->setFlash(__('Your category has been added successfully.'), 'flash_good');
-                    $this->redirect(array('controller' => 'categories'));
+                    $this->redirect(array('controller' => 'categories', 'action'=>'index', 'admin'=>true));
                 } else {
                     $validationErr = $this->compileErrors('ProfessionCategory');
                 }
@@ -166,5 +166,6 @@ class CategoriesController extends AppController
     		}
     	}
     }
-
+    
+   
 }

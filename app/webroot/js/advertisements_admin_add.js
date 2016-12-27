@@ -17,31 +17,6 @@
             }
         });
         
-    if ($('#professionCategory').val() != '') {
-        var profCatId = $('#professionCategory').val();
-        getProfessionList(profCatId);
-    }
+    
     });
     
-    
-function getProfessionList(catID) {
-	
-    var professionId = $('#professionSelected').val();
-    if (catID != '') {
-        $.ajax({
-            'type': 'post',
-            'data': {'categoryId': catID, 'professionId' : professionId},
-            'url': ajaxUrl,
-            success: function (response) {
-                $('#professionLabel').show();
-                $('#professionDiv').html(response);
-                if (professionIdSelected != '') {
-                    $('#profession').val(professionIdSelected);
-                }
-                professionIdSelected = '';
-            }
-        });
-    } else {
-        $('#professionLabel').hide();
-    }
-}

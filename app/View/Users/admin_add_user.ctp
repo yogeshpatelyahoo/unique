@@ -4,6 +4,7 @@
  * Add Advertisement
  * @author Laxmi Saini
  */
+echo $this->Html->script('../developer/js/admin_validation');
 ?>
 <!-- start: PAGE HEADER -->
 <div class="row">
@@ -87,8 +88,5 @@
         <!-- end: FORM WIZARD PANEL -->
     </div>
 </div>
-<script type="text/javascript">
-var ajaxUrl = "<?php echo Router::url(array('controller' => 'businessOwners', 'action' => 'getProfessionList'));?>";
-var professionIdSelected = '';
-</script>
+
 <?php echo $this->HTML->script('advertisements_admin_add');?>

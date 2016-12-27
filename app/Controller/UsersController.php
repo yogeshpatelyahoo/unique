@@ -395,6 +395,7 @@ class UsersController extends AppController
     
  public function admin_addUser()
  {
+ 	$this->includePageJs = array('admin_validation');
  	if($this->request->is('POST')) {
  		if ($this->User->save($this->request->data)) {
  			$this->Session->setFlash(__('User added successfully.'), 'flash_good');

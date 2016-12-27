@@ -11,12 +11,7 @@
     <div class="main-navigation navbar-collapse collapse">
         <!-- start: MAIN NAVIGATION MENU -->
         <ul class="main-navigation-menu">
-            <li <?php if($this->params['controller']=="dashboard"){ ?>class="active"<?php }?>>
-                <?php
-                echo $this->Html->link('<i class="clip-home-3"></i><span class="title"> Dashboard </span><span class="selected"></span>', array('controller' => 'dashboard', 'action' => 'index','admin'=>true), array('escape' => false));
-                ?>       
-            </li>
-           
+            
            <li <?php if($this->params['controller']=="category"){ ?>class="active"<?php }?>>
     
                 <?php
