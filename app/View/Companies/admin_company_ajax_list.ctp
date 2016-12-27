@@ -1,93 +1,8 @@
-<?php
-/**
- * profession categories listing page
- * @author Mystery Man
- */
+<?php $this->Paginator->options(array('update' => '.panel-body','evalScripts' => true)); ?>
+<?php echo $this->Paginator->options(array('url' => array("perpage"=>$perpage,"search"=>$search,'sort'=> $this->Session->read('sort'),'direction'=> $this->Session->read('direction'))));
+$deleteUrl = 'admin/candidates/delete/';
 ?>
-<?php 
-   $this->Paginator->options(array(
-      'update' => '.panel-body',
-      'evalScripts' => true
-   )); 
-   $deleteUrl = 'admin/companies/delete/';
-?>
-<!-- start: PAGE HEADER -->
-<div class="row">
-    <div class="col-sm-12">
-        <!-- start: PAGE TITLE & BREADCRUMB -->
-        <ol class="breadcrumb">
-            <li>
-                <i class="clip-file"></i>
-                <?php echo $this->Html->link('Users', array('controller' => 'candidates', 'action' => 'index', 'admin' => true));?>
-            </li>
-            <li class="active">Companies List</li>
-            <li class="search-box">
-            <form class="sidebar-search">
-                <div class="form-group">
-                    <input type="text" id="searching" name="search" placeholder="Start Searching...">
-                </div>
-                <?php
-                    $this->Js->get('#searching');
-                    $this->Js->event('keyup',
-                    $this->Js->request(array(
-                                'controller'=>'companies',
-                                'action'=>'index'
-                            ),
-                            array(
-                                'async'=>true,
-                                'update'=>'.panel-body',
-                                'dataExpression'=>true,
-                                'data' => '$(\'#searching,#perpage\').serializeArray()',
-                                'method'=>'post'
-                                )
-                        )
-                    );
-                ?>
-
-            </form>
-            </li>
-        </ol>
-        <div class="page-header">
-            <h1>Companies List
-                <?php echo $this->Element('records_per_page');?>       
-            </h1>
-        </div>
-        <?php
-            $this->Js->get('#perpage');
-            $this->Js->event('change',
-            $this->Js->request(array(
-                            'controller'=>'companies',
-                                'action'=>'index'
-                            ),
-                        array(
-                            'async'=>true,
-                            'update'=>'.panel-body',
-                            'dataExpression'=>true,
-                            'data' => '$(\'#searching,#perpage\').serializeArray()',
-                            'method'=>'post'
-                            )
-                 )
-            );
-        ?>
-        <!-- end: PAGE TITLE & BREADCRUMB -->
-    </div>
-</div>
-<div class="row">
-	<div align="right" class="col-md-12">
-        <?php echo $this->Html->link('<i class="fa fa-plus">&nbsp;</i>Add Company', 
-                        array(
-                            'controller' => 'companies',
-                            'action' => 'addCompany'
-                        ),
-                        array('escape' => false,'style'=>'font-weight: bold;')
-                    );
-        ?>
-    </div>
-    <div class="col-md-12">
-        <!-- start: BASIC TABLE PANEL -->
-        <div class="panel panel-default">
-            <div class="panel-body" >
-                <table id="sample-table-1" class="table table-hover">
+    <table id="sample-table-1" class="table table-hover">
                     <thead>
                         <tr>
                             <th class="center">S.No.</th>
@@ -158,8 +73,3 @@
     </div>
                 <?php } ?>
     <?php echo $this->Js->writeBuffer(); ?>
-            </div>
-        </div>
-        <!-- end: BASIC TABLE PANEL -->
-    </div>
-</div>

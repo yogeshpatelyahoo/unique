@@ -29,7 +29,7 @@
         <!-- start: FORM WIZARD PANEL -->
         <div class="panel panel-default">
             <div class="panel-body">
-                <?php echo $this->Form->create('Candidate', array('url' => array('controller' => 'candidates', 'action' => 'edit', 'admin' => true, $id), 'class' => 'smart-wizard form-horizontal', 'id' => 'addUsersForm', 'novalidate'=>'true', 'type' => 'file','inputDefaults' => array('errorMessage' => true))); ?>
+                <?php echo $this->Form->create('Candidate', array('url' => array('controller' => 'candidates', 'action' => 'edit', 'admin' => true, $id), 'class' => 'smart-wizard form-horizontal', 'id' => 'editCandidate', 'novalidate'=>'true', 'type' => 'file','inputDefaults' => array('errorMessage' => true))); ?>
                 <?php echo $this->Form->hidden('Candidate.id');?>
                 <div id="wizard" class="swMain">
                     

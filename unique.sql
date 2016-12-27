@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 26, 2016 at 07:02 PM
+-- Generation Time: Dec 27, 2016 at 08:07 PM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -45,7 +45,7 @@ CREATE TABLE `candidates` (
 
 INSERT INTO `candidates` (`id`, `fname`, `lname`, `email_id`, `phone`, `category_id`, `comment`, `resume_file`, `created`, `modified`) VALUES
 (2, 'test', 'user', 'test@gmail.com', '9950162420', 1, 'dfdfdfdfdf', '1482550960_Rohan Julka CV build 1_24-Sep-11_10-04-54.docx', '2016-12-24 04:53:25', '2016-12-24 10:12:40'),
-(3, 'yogesh', 'Patel', 'yogesh@gmail.com', '9950162420', 1, 'ererer', '1482632168_Rohan Julka CV build 1_24-Sep-11_10-04-54.docx', '2016-12-24 13:06:42', '2016-12-24 20:46:08');
+(3, 'yogesh', 'Patel', 'yogesh@gmail.com', '9950162420', 1, 'ererer', '1482632168_Rohan Julka CV build 1_24-Sep-11_10-04-54.docx', '2016-12-24 13:06:42', '2016-12-27 13:21:23');
 
 -- --------------------------------------------------------
 
@@ -55,16 +55,24 @@ INSERT INTO `candidates` (`id`, `fname`, `lname`, `email_id`, `phone`, `category
 
 CREATE TABLE `companies` (
   `id` int(11) UNSIGNED NOT NULL,
-  `fname` varchar(256) NOT NULL,
-  `lname` varchar(256) NOT NULL,
+  `name` varchar(256) NOT NULL,
   `email_id` varchar(256) NOT NULL,
   `phone` varchar(10) NOT NULL,
   `category_id` int(10) UNSIGNED NOT NULL,
-  `comment` text NOT NULL,
-  `resume_file` text NOT NULL,
+  `about` text NOT NULL,
+  `technologies` text NOT NULL,
   `created` datetime DEFAULT NULL,
   `modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `companies`
+--
+
+INSERT INTO `companies` (`id`, `name`, `email_id`, `phone`, `category_id`, `about`, `technologies`, `created`, `modified`) VALUES
+(1, 'test', 'tst@g.com', '9950162420', 0, 'nbnbbn', 'a:2:{i:0;s:4:".net";i:1;s:9:"angularjs";}', '2016-12-27 17:55:56', '2016-12-27 12:52:58'),
+(2, 'test', 'tst@g.com', '9950162420', 0, 'nbnbbn', 'php,c#', '2016-12-27 18:18:55', '2016-12-27 12:48:55'),
+(3, 'test', 'tst@g.com', '9950162420', 0, 'nbnbbn', 'java,jquery', '2016-12-27 18:20:10', '2016-12-27 12:51:35');
 
 -- --------------------------------------------------------
 
@@ -966,7 +974,7 @@ ALTER TABLE `candidates`
 -- AUTO_INCREMENT for table `companies`
 --
 ALTER TABLE `companies`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `contacts`
 --

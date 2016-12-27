@@ -2,7 +2,7 @@
 /**
  * Admin change password form page 
  */
-echo $this->Html->script('../developer/js/admin_validation');
+
 ?>
 <!-- start: PAGE HEADER -->
 <div class="row">

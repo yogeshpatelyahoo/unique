@@ -4,6 +4,7 @@
  * Add Advertisement
  * @author Laxmi Saini
  */
+
 ?>
 <!-- start: PAGE HEADER -->
 <div class="row">
@@ -29,28 +30,28 @@
         <!-- start: FORM WIZARD PANEL -->
         <div class="panel panel-default">
             <div class="panel-body">
-                <?php echo $this->Form->create('Candidate', array('url' => array('controller' => 'candidates', 'action' => 'addCandidate', 'admin' => true), 'class' => 'smart-wizard form-horizontal', 'id' => 'addCandidateForm', 'novalidate'=>'true', 'type' => 'file','inputDefaults' => array('errorMessage' => true))); ?>
+                <?php echo $this->Form->create('Company', array('url' => array('controller' => 'companies', 'action' => 'addCompany', 'admin' => true), 'class' => 'smart-wizard form-horizontal', 'id' => 'addCompanyForm', 'novalidate'=>'true', 'type' => 'file','inputDefaults' => array('errorMessage' => true))); ?>
                 <div id="wizard" class="swMain">
                     
 
                     <div class="form-group">
                             <?php echo $this->Form->label('', 'Company Name'.$this->Html->tag('span', '', array('class' => 'symbol required')), array('class' => 'col-sm-3 control-label')); ?>
                         <div class="col-sm-7">
-                            <?php echo $this->Form->input('Company.name', array('label' => false, 'class' => 'form-control', 'id' => 'fname', 'placeholder'=>'First Name'));?>
+                            <?php echo $this->Form->input('Company.name', array('label' => false, 'class' => 'form-control', 'id' => 'fname', 'placeholder'=>'Company Name'));?>
                         </div>
                     </div>
                                         
                     <div class="form-group">
                             <?php echo $this->Form->label('', 'Email'.$this->Html->tag('span', '', array('class' => 'symbol required')), array('class' => 'col-sm-3 control-label')); ?>
                         <div class="col-sm-7">
-                            <?php echo $this->Form->input('Company.email_id', array('label' => false, 'class' => 'form-control', 'id' => 'email_id', 'placeholder'=>'User Email', 'type'=>'email'));?>
+                            <?php echo $this->Form->input('Company.email_id', array('label' => false, 'class' => 'form-control', 'id' => 'email_id', 'placeholder'=>'Email', 'type'=>'email'));?>
                         </div>
                     </div>
                      
 					<div class="form-group">
                             <?php echo $this->Form->label('', 'Contact Number'.$this->Html->tag('span', '', array('class' => 'symbol required')), array('class' => 'col-sm-3 control-label')); ?>
                         <div class="col-sm-7">
-                            <?php echo $this->Form->input('Company.phone', array('label' => false, 'class' => 'form-control', 'id' => 'phone', 'placeholder'=>'Phone Number'));?>
+                            <?php echo $this->Form->input('Company.phone', array('label' => false, 'class' => 'form-control', 'id' => 'phone', 'placeholder'=>'Contact Number'));?>
                         </div>
                     </div> 
                     
@@ -70,10 +71,10 @@
                     </div> 
                     
                     <div class="form-group">
-                            <?php echo $this->Form->label('', 'Description'.$this->Html->tag('span', '', array('class' => 'symbol required')), array('class' => 'col-sm-3 control-label')); ?>
+                            <?php echo $this->Form->label('', 'Technologies'.$this->Html->tag('span', '', array('class' => 'symbol required')), array('class' => 'col-sm-3 control-label')); ?>
                         <div class="col-sm-7">
-                            <select multiple data-role="tagsinput">
-							</select>
+                        <?php echo $this->Form->input('Company.technologies', array('type'=>'text', 'label' => false, 'class' => 'form-control', 'id' => 'phone', 'placeholder'=>'Tech', 'data-role'=>"tagsinput"));?>
+                            
                         </div>
                     </div> 
                     

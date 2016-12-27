@@ -4,7 +4,7 @@
  * Add Advertisement
  * @author Laxmi Saini
  */
-echo $this->Html->script('../developer/js/admin_validation');
+
 ?>
 <!-- start: PAGE HEADER -->
 <div class="row">

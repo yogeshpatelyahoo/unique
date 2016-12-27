@@ -52,6 +52,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
         echo $this->Html->script('../assets/plugins/jquery-cookie/jquery.cookie');
         echo $this->Html->script('../assets/plugins/bootstrap-colorpalette/js/bootstrap-colorpalette');
         echo $this->Html->script('../assets/js/main');
+        echo $this->Html->script('../developer/js/admin_validation');
 
         //button rotator
         echo $this->Html->script('../assets/plugins/ladda-bootstrap/dist/spin.min.js');

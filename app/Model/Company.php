@@ -27,11 +27,6 @@ class Company extends AppModel
     			'rule' => 'notEmpty',
     			'message' => 'This field is required'
     		),
-    		'unique' => array (
-	    		'rule' => 'isUnique',
-        		'required' => 'create',
-	    		'message' => 'User email already exists.'
-    		),
             'email' => array (
                 'rule' => 'email',
                 'message' => 'Please enter valid email address'

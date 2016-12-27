@@ -392,6 +392,124 @@ $(document).ready(function (e) {
      	}
     });
     
+    $('#addCandidateForm, #editCandidate').validate({
+        rules: {
+        	'data[Candidate][fname]': {
+                required: true,
+                minlength: 6,
+                maxlength: 20,
+            },
+            'data[Candidate][lname]': {
+            	required: true,
+                nowhitespace: true,
+                minlength: 6,
+                maxlength: 20,
+            },
+            'data[Candidate][email_id]': {
+                required: true,
+                email: true
+            }, 
+            'data[Candidate][phone]' :{
+            	required: true,
+            },
+            'data[Candidate][comment]' :{
+            	required:true
+            },
+            'data[Candidate][category_id]' :{
+            	required: true,
+            },
+            'data[Candidate][resume_file]' :{
+            	required: true,
+            }
+        },
+        messages: {
+        	'data[Candidate][fname]':{
+            	required: 'This field is required',
+            	minlength: "First Name should be minimum 6 characters and maximum 20 characters.",
+	        	maxlength: "First Name should be minimum 6 characters and maximum 20 characters.",
+            },
+            'data[Candidate][lname]':{
+            	required: 'This field is required',
+            	nowhitespace: "Space is not allowed in password.",
+            	minlength: "Last Name should be minimum 6 characters and maximum 20 characters.",
+	        	maxlength: "Last Name should be minimum 6 characters and maximum 20 characters.",
+            },
+            'data[Candidate][email_id]':{
+            	required: "This field is required",
+            	email: "Enter valid email"
+            }, 
+            'data[Candidate][phone]' :{
+            	required: 'This field is required',
+            },
+            'data[Candidate][category_id]' :{
+            	required: 'This field is required',
+            },
+            'data[Candidate][comment]' :{
+            	required: 'This field is required',
+            },
+            'data[Candidate][resume_file]' :{
+            	required: 'This field is required',
+            }
+        },        
+        submitHandler: function (form) {
+     		form.submit();
+     	}
+    });
+    
+    $('#addCompanyForm, #editCompany').validate({
+        rules: {
+        	'data[Company][name]': {
+                required: true,
+                minlength: 6,
+                maxlength: 20,
+            },
+            'data[Company][email_id]': {
+                required: true,
+                email: true
+            }, 
+            'data[Company][phone]' :{
+            	required: true,
+            },
+            'data[Company][about]' :{
+            	required:true
+            },
+            'data[Company][category_id]' :{
+            	required: true,
+            },
+            'data[Company][technologies]' :{
+            	required: true,
+            }
+        },
+        messages: {
+        	'data[Company][name]':{
+            	required: 'This field is required',
+            	minlength: "First Name should be minimum 6 characters and maximum 20 characters.",
+	        	maxlength: "First Name should be minimum 6 characters and maximum 20 characters.",
+            },
+            'data[Candidate][email_id]':{
+            	required: "This field is required",
+            	email: "Enter valid email"
+            }, 
+            'data[Candidate][phone]' :{
+            	required: 'This field is required',
+            },
+            'data[Candidate][category_id]' :{
+            	required: 'This field is required',
+            },
+            'data[Candidate][about]' :{
+            	required: 'This field is required',
+            },
+            'data[Candidate][resume_file]' :{
+            	required: 'This field is required',
+            }
+        },        
+        submitHandler: function (form) {
+     		form.submit();
+     	}
+    });
+    
+    
+    
 });
 /**
      * ajaxChange() to fetch State /City list on country selection

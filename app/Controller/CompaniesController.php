@@ -82,7 +82,7 @@ class CompaniesController extends AppController
     		$this->layout = false;
     		$this->set('perpage', $perpage);
     		$this->set('search', $search);
-    		$this->render('admin_candidate_ajax_list');
+    		$this->render('admin_company_ajax_list');
     	}
     }
   
@@ -92,34 +92,11 @@ class CompaniesController extends AppController
 	 	$categories = $this->ProfessionCategory->find('list');
 	 	$this->set(compact('categories'));
 	 	if ($this->request->is('post')) {
-	 		$file = $this->request->data['Candidate']['resume_file'];
-	 		if ($file['size'] > 10000000 || empty($file)) {
-	 			$this->Session->setFlash(__('Resume file size should be maximum of 10 MB'), 'flash_bad');
-	 			$this->redirect(array('action' => 'addCandidate'));
+	 		$this->request->data['Company']['technologies'] = serialize(explode(',', $this->request->data['Company']['technologies']));
+	 		if($this->Company->save($this->request->data)) {
+	 			$this->Session->setFlash(__('Company has been added successfully'), 'flash_good');
+	 			$this->redirect(array('controller'=>'companies', 'action'=>'index'));
 	 		}
-	 		
-	 		$ext = substr(strtolower(strrchr($file['name'], '.')), 1);
-	 		$arr_ext = array('doc', 'docx');
-	 		if (!empty($this->request->data['Candidate']['resume_file']['name'])) {	 			
-	 			$resumeName = strtotime(date('h:i:s')).'_'.$file['name'];
-	 			$filepath = WWW_ROOT . 'uploads/resumes/' . $resumeName;
-	 			if (in_array($ext, $arr_ext)) {
-	 				move_uploaded_file($file['tmp_name'], $filepath);
-	 				$this->request->data['Candidate']['resume_file'] = $resumeName ;
-	 				$this->Candidate->create();
-	 				
-	 				//$this->request->data['Candidate']['resume_file'] =
-	 				$this->request->data['Candidate']['category_id'] = $this->Encryption->decode($this->request->data['Candidate']['category_id']);
-	 				if ($this->Candidate->save($this->request->data)) {
-	 					$this->Session->setFlash(__('Candidate has been added successfully.'), 'flash_good');
-	 					$this->redirect(array('controller' => 'candidates', 'action'=>'index'));
-	 				} else {
-	 					$validationErr = $this->compileErrors('Candidate');
-	 				}
-	 			} else {
-	 				$this->Session->setFlash(__('Invalid Format'), 'flash_bad');
-	 			}
-	 		}	 		
 	 	}
 	 }
 	 
@@ -151,82 +128,39 @@ class CompaniesController extends AppController
 	  * @param string $categoryId category id
 	  * @author Mystery Man
 	  */
-	 function admin_edit($candidateId = null)
+	 function admin_edit($companyId = null)
 	 {
 	 	$this->layout = 'admin';
 	 	$categories = $this->ProfessionCategory->find('list');
 	 	$this->set(compact('categories'));
 	 	$this->includePageJs = array('admin_validation');
-	 	$id = $this->Encryption->decode($candidateId);
-	 	$this->set('id', $candidateId);
-	 	if (!$this->Candidate->exists($id)) {
-	 		$this->Session->setFlash(__('Invalid candidate'), 'flash_bad');
-	 		$this->redirect(array('controller' => 'candidates', 'action' => 'index', 'admin' => true));
+	 	$id = $this->Encryption->decode($companyId);
+	 	$this->set('id', $companyId);
+	 	if (!$this->Company->exists($id)) {
+	 		$this->Session->setFlash(__('Invalid Company'), 'flash_bad');
+	 		$this->redirect(array('controller' => 'companies', 'action' => 'index', 'admin' => true));
 	 	}
-	 	$candidateData = $this->Candidate->findById($id);
+	 	$companyData = $this->Company->findById($id);
 	 	if ($this->request->is(array('post', 'put'))) {
 	 		// Check if file is uploaded
-	 		$error = false;
-	 		//pr($this->request->data['Candidate']['resume_file']);exit;
-	 		if ( !empty($this->request->data['Candidate']['resume_file']) && $this->request->data['Candidate']['resume_file']['size'] > 0 ) {
-	 			
-	 			$file = $this->request->data['Candidate']['resume_file'];
-	 			$ext = substr(strtolower(strrchr($file['name'], '.')), 1);
-	 			$arr_ext = Configure::read('ALLOWED_EXT');
-		 		if ($file['size'] > Configure::read('MAX_SIZE') || empty($file)) {
-		 			$error = true;
-		 			$this->Session->setFlash(__('Resume file size should be maximum of 10 MB'), 'flash_bad');
-		 		} elseif(!in_array($ext, $arr_ext)) {
-		 			$error = true;
-		 			$this->Session->setFlash(__('Invalid Extension'), 'flash_bad');		 			
-		 		} else {
-		 			$resumeName = strtotime(date('h:i:s')).'_'.$file['name'];
-		 			$filepath = WWW_ROOT . 'uploads/resumes/' . $resumeName;
-	 				move_uploaded_file($file['tmp_name'], $filepath);
-	 				$this->request->data['Candidate']['resume_file'] = $resumeName ;
-		 		}
-	 		} else {
-	 			unset($this->request->data['Candidate']['resume_file']);
-	 		}
-	 		
-	 		if(!$error) {	 			
-	 			unset($this->Candidate->validate['email_id']);
-	 			$this->request->data['Candidate']['id'] = $this->Encryption->decode($this->request->data['Candidate']['id']);
-	 			$this->request->data['Candidate']['category_id'] = $this->Encryption->decode($this->request->data['Candidate']['category_id']);
-	 			if ($this->Candidate->save($this->request->data)) {
-	 				$this->Session->setFlash(__('Candidate has been updated successfully.'), 'flash_good');
-	 				return $this->redirect(array('controller' => 'candidates', 'action' => 'index', 'admin' => true));
-	 			} else {
-	 				$validationErr = $this->compileErrors('Candidate');
-	 				if ($validationErr != NULL) {
-	 					$this->Session->setFlash($validationErr,'flash_bad');
-	 				}
-	 			}
-	 		}
-	 		
+	 		$this->request->data['Company']['id'] = $this->Encryption->decode($this->request->data['Company']['id']);
+	 		$this->request->data['Company']['technologies'] = serialize(explode(',', $this->request->data['Company']['technologies']));
+ 			if ($this->Company->save($this->request->data)) {
+ 				$this->Session->setFlash(__('Company has been updated successfully.'), 'flash_good');
+ 				return $this->redirect(array('controller' => 'companies', 'action' => 'index', 'admin' => true));
+ 			} else {
+ 				$validationErr = $this->compileErrors('Company');
+ 				if ($validationErr != NULL) {
+ 					$this->Session->setFlash($validationErr,'flash_bad');
+ 				}
+ 			}
 	 	}
 	 	if (!$this->request->data) {
-	 		$this->request->data = $candidateData;
+	 		$this->request->data = $companyData;
 	 	}
 	 	$this->set('includePageJs',$this->includePageJs);
 	 }
 	 
-	 public function admin_downloadResume($id = NULL)
-	 {
-	 	if(!$id) {
-	 		return $this->redirect($this->referer());
-	 	}
-	 	//$this->autoRender = false;
-	 	$file = $this->Candidate->findById($this->Encryption->decode($id), array('fields'=>'resume_file'));
-	 	$filename = substr($file['Candidate']['resume_file'], strpos($file['Candidate']['resume_file'], '_')+1);
-	 	$path = 'uploads/resumes/'.$file['Candidate']['resume_file'];
-	 	
-	 	$this->response->file($path, array(
-	 			'download' => true,
-	 			'name' => $filename,
-	 	));
-	 	return $this->response;
-	 }
 }
     
    
