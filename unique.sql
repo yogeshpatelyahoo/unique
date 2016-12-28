@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 27, 2016 at 08:07 PM
+-- Generation Time: Dec 28, 2016 at 04:56 AM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -19,6 +19,23 @@ SET time_zone = "+00:00";
 --
 -- Database: `unique`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `assignments`
+--
+
+CREATE TABLE `assignments` (
+  `id` int(11) UNSIGNED NOT NULL,
+  `company_id` varchar(256) NOT NULL,
+  `candidate_id` varchar(256) NOT NULL,
+  `date_asigned` varchar(256) NOT NULL,
+  `status` varchar(10) NOT NULL,
+  `category_id` int(10) UNSIGNED NOT NULL,
+  `created` datetime DEFAULT NULL,
+  `modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -907,6 +924,12 @@ INSERT INTO `users` (`id`, `fname`, `lname`, `username`, `user_email`, `password
 --
 
 --
+-- Indexes for table `assignments`
+--
+ALTER TABLE `assignments`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `candidates`
 --
 ALTER TABLE `candidates`
@@ -965,6 +988,11 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for dumped tables
 --
 
+--
+-- AUTO_INCREMENT for table `assignments`
+--
+ALTER TABLE `assignments`
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `candidates`
 --
