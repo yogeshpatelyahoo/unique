@@ -73,6 +73,21 @@
                     </li>
                 </ul>
             </li>
+            
+            <li <?php if($this->params['controller']=="assignments"){ ?>class="active"<?php }?>>
+    
+                <?php
+                echo $this->Html->link('<i class="fa fa-youtube-play"></i><span class="title"> Company Assignment </span><i class="icon-arrow"></i><span class="selected"></span>', '#', array('escape' => false));
+                ?>
+                <ul class="sub-menu" >
+                    <li <?php if($this->params['controller']=="assignments" && $this->params['action']=="admin_index"){ ?>class="active"<?php }?>>
+                       <?php echo $this->Html->link('<span class="title"> Assignments List </span>', array('controller' => 'assignments', 'action' => 'index'), array('escape' => false));?>
+                    </li>
+                    <li <?php if($this->params['controller']=="assignments" && $this->params['action']=="admin_addCandidate"){ ?>class="active"<?php }?>>
+                       <?php echo $this->Html->link('<span class="title"> Add Assignment</span>', array('controller' => 'assignments', 'action' => 'add','admin'=>true), array('escape' => false));?>
+                    </li>
+                </ul>
+            </li>
           
             
 

@@ -31,14 +31,14 @@
         <!-- start: FORM WIZARD PANEL -->
         <div class="panel panel-default">
             <div class="panel-body">
-                <?php echo $this->Form->create('Candidate', array('url' => array('controller' => 'assignments', 'action' => 'add', 'admin' => true), 'class' => 'smart-wizard form-horizontal', 'id' => 'addCandidateForm', 'novalidate'=>'true', 'type' => 'file','inputDefaults' => array('errorMessage' => true))); ?>
+                <?php echo $this->Form->create('Assignment', array('url' => array('controller' => 'assignments', 'action' => 'add', 'admin' => true), 'class' => 'smart-wizard form-horizontal', 'id' => 'addCandidateForm', 'novalidate'=>'true', 'type' => 'file','inputDefaults' => array('errorMessage' => true))); ?>
                 <div id="wizard" class="swMain">
                     
 
                     <div class="form-group">
                             <?php echo $this->Form->label('', 'Company'.$this->Html->tag('span', '', array('class' => 'symbol required')), array('class' => 'col-sm-3 control-label')); ?>
                         <div class="col-sm-7">
-                            <?php echo $this->Form->select('Candidate.company_id', $companies, array('label' => false, 'class' => 'form-control', 'id' => 'category_id','empty'=>false));?>
+                            <?php echo $this->Form->select('Assignment.company_id', $companies, array('label' => false, 'class' => 'form-control', 'id' => 'category_id','empty'=>false));?>
                         </div>
                     </div>
                    
@@ -46,14 +46,14 @@
                             <?php echo $this->Form->label('', 'Category'.$this->Html->tag('span', '', array('class' => 'symbol required')), array('class' => 'col-sm-3 control-label')); ?>
                         <div class="col-sm-7">
                        
-                            <?php echo $this->Form->select('Candidate.category_id', $categories, array('label' => false, 'class' => 'form-control', 'id' => 'category_id','empty'=>false));?>
+                            <?php echo $this->Form->select('Assignment.category_id', $categories, array('label' => false, 'class' => 'form-control', 'id' => 'category_id','empty'=>false));?>
                         </div>
                     </div> 
                     
                     <div class="form-group">
                             <?php echo $this->Form->label('', 'Comment'.$this->Html->tag('span', '', array('class' => 'symbol required')), array('class' => 'col-sm-3 control-label')); ?>
                         <div class="col-sm-7">
-                            <?php echo $this->Form->select('Candidate.candidates', $candidates, array('label' => false, 'class' => 'form-control', 'id' => 'category_id','empty'=>false, 'multiple'));?>
+                            <?php echo $this->Form->select('Assignment.candidates', $candidates, array('label' => false, 'class' => 'form-control', 'id' => 'candidate_id','empty'=>false, 'multiple'=>true));?>
                         </div>
                     </div> 
                       

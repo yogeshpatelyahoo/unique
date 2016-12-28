@@ -93,6 +93,7 @@ class CompaniesController extends AppController
 	 	$this->set(compact('categories'));
 	 	if ($this->request->is('post')) {
 	 		$this->request->data['Company']['technologies'] = serialize(explode(',', $this->request->data['Company']['technologies']));
+	 		$this->request->data['Company']['category_id'] = $this->Encryption->decode($this->request->data['Company']['category_id']);
 	 		if($this->Company->save($this->request->data)) {
 	 			$this->Session->setFlash(__('Company has been added successfully'), 'flash_good');
 	 			$this->redirect(array('controller'=>'companies', 'action'=>'index'));
@@ -144,6 +145,7 @@ class CompaniesController extends AppController
 	 	if ($this->request->is(array('post', 'put'))) {
 	 		// Check if file is uploaded
 	 		$this->request->data['Company']['id'] = $this->Encryption->decode($this->request->data['Company']['id']);
+	 		$this->request->data['Company']['category_id'] = $this->Encryption->decode($this->request->data['Company']['category_id']);
 	 		$this->request->data['Company']['technologies'] = serialize(explode(',', $this->request->data['Company']['technologies']));
  			if ($this->Company->save($this->request->data)) {
  				$this->Session->setFlash(__('Company has been updated successfully.'), 'flash_good');
@@ -161,6 +163,14 @@ class CompaniesController extends AppController
 	 	$this->set('includePageJs',$this->includePageJs);
 	 }
 	 
+	 public function admin_view()
+	 {
+	 	$this->layout = false;
+	 	if($this->request->is('ajax')) {
+	 		$data = $this->Company->find('first',array('conditions'=>array('Company.id'=>$this->Encryption->decode($this->request->data['id']))));
+	 		$this->set('company',$data);
+	 		$this->render('admin_view');
+	 	}
+	 }
+	 
 }
-    
-   

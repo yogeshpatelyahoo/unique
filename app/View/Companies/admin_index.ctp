@@ -113,6 +113,13 @@
                     <td class="center">
                         <div class="visible-md visible-lg hidden-sm hidden-xs">
                             <?php
+                            echo $this->Html->link('<i class="clip-search"></i>', 'javascript:void(0)',
+                            		array(
+                            				'class' => 'btn btn-xs btn-teal tooltips view_suggestion',
+                            
+                            				'onclick'=>"popUp('admin/companies/view','".$companyId."')",'escape' => false
+                            		));
+                            echo '&nbsp;';
                             echo $this->Html->link('<i class="fa fa-edit"></i>', array('controller' => 'companies', 'action' => 'admin_edit', $companyId), array('class' => 'btn btn-xs btn-teal tooltips', 'data-original-title' => 'Edit', 'data-placement' => 'top', 'escape' => false));
                             echo '&nbsp;';
                             echo $this->Html->link('<i class="fa fa-times fa fa-white"></i>', 'javascript:void(0)',

@@ -97,7 +97,17 @@ class AssignmentsController extends AppController
 	 	$candidates = $this->Candidate->find('list', array('fields'=>array('id', 'cname')));
 	 	$this->set(compact('categories','companies','candidates'));
 	 	if ($this->request->is('post')) {
-	 		pr($this->request->data);exit();	 		
+	 		$data = array();
+	 		$company_id = $this->Encryption->decode($this->request->data['Assignment']['company_id']);
+	 		$category_id = $this->Encryption->decode($this->request->data['Assignment']['category_id']);
+	 		foreach ($this->request->data['Assignment']['candidates'] as $candidate) {
+	 			$data[] = array('company_id'=>$company_id, 'category_id'=>$category_id, 'candidate_id'=>$this->Encryption->decode($candidate));
+	 		}
+	 		//pr($data);exit();
+	 		//$data = array('Assignment'=>$data);
+	 		if( $this->Assignment->saveAll($data) ) {
+	 			$this->redirect(array('controller'=>'assignments', 'action'=>'index'));
+	 		}
 	 	}
 	 }
 	 

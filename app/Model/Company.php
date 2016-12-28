@@ -46,5 +46,13 @@ class Company extends AppModel
 		)
 	);
 	
+	public $hasOne = array(
+			'Category' => array(
+					'className' => 'ProfessionCategory',
+					'fields'	=> 'id,name',
+					'foreignKey' => false,
+					'conditions' => array('Category.id = Company.category_id'),
+			),);
+	
     
 }

@@ -94,26 +94,27 @@
             <th><?php echo $this->Paginator->sort('Candidate.fname', 'Candidate Name'); ?></th>
             <th><?php echo $this->Paginator->sort('Company.name', 'Company Name'); ?></th>
             <th><?php echo $this->Paginator->sort('status', 'Status'); ?></th>
+            <th><?php echo $this->Paginator->sort('created', 'Date Assigned'); ?></th>
             <th style="text-align: center">Action</th>
                         </tr>
                     </thead>
                     <tbody id="professionCategoryContent">
                         <?php
-                        
                         if (!empty($assignments)) {
                             foreach ($assignments as $assignment) {
-                            	$candidateId = $candidate['Candidate']['id'];
+                            	$assignmentId = $assignment['Assignment']['id'];
                         ?>
                                 <tr>
                     <td class="center"><?php echo $counter;?></td>
-                    <td class="hidden-xs"><?php echo htmlspecialchars(ucwords($candidate['Candidate']['fname'].' '.$candidate['Candidate']['lname'])); ?></td>
-                    <td><?php echo $candidate['Candidate']['email_id'];?></td>
-                    <td><?php echo $candidate['Candidate']['phone']; ?></td>
+                    <td class="hidden-xs"><?php echo htmlspecialchars(ucwords($assignment['Candidate']['fname'].' '.$assignment['Candidate']['lname'])); ?></td>
+                    <td><?php echo $assignment['Company']['name'];?></td>
+                    <td><?php echo $assignment['Assignment']['status']; ?></td>
+                    <td><?php echo date('Y-m-d', strtotime($assignment['Assignment']['created'])); ?></td>
                     
                     <td class="center">
                         <div class="visible-md visible-lg hidden-sm hidden-xs">
                             <?php
-                            echo $this->Html->link('<i class="fa fa-edit"></i>', array('controller' => 'candidates', 'action' => 'admin_edit', $candidateId), array('class' => 'btn btn-xs btn-teal tooltips', 'data-original-title' => 'Edit', 'data-placement' => 'top', 'escape' => false));
+                            echo $this->Html->link('<i class="fa fa-edit"></i>', array('controller' => 'candidates', 'action' => 'admin_edit', $assignmentId), array('class' => 'btn btn-xs btn-teal tooltips', 'data-original-title' => 'Edit', 'data-placement' => 'top', 'escape' => false));
                             echo '&nbsp;';
                             echo $this->Html->link('<i class="fa fa-times fa fa-white"></i>', 'javascript:void(0)',
                             		array(
@@ -122,8 +123,8 @@
                             				'data-toggle' => 'modal',
                             				'data-backdrop'=>'static',
                             				'data-placement' => 'top',
-                            				'id'=>$candidate['Candidate']['id'],
-                            				'onclick'=>"popUp('".$deleteUrl."','".$candidate['Candidate']['id']."')",'escape' => false
+                            				'id'=>$assignment['Assignment']['id'],
+                            				'onclick'=>"popUp('".$deleteUrl."','".$assignment['Assignment']['id']."')",'escape' => false
                             		));
                             ?>
                         </div>

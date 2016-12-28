@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 28, 2016 at 04:56 AM
+-- Generation Time: Dec 28, 2016 at 07:19 PM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -30,12 +30,22 @@ CREATE TABLE `assignments` (
   `id` int(11) UNSIGNED NOT NULL,
   `company_id` varchar(256) NOT NULL,
   `candidate_id` varchar(256) NOT NULL,
-  `date_asigned` varchar(256) NOT NULL,
-  `status` varchar(10) NOT NULL,
+  `status` enum('assigned','in_process','selected','failed') NOT NULL DEFAULT 'assigned',
   `category_id` int(10) UNSIGNED NOT NULL,
   `created` datetime DEFAULT NULL,
   `modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `assignments`
+--
+
+INSERT INTO `assignments` (`id`, `company_id`, `candidate_id`, `status`, `category_id`, `created`, `modified`) VALUES
+(2, '1', '2', 'assigned', 1, '2016-12-28 16:59:53', '2016-12-28 17:02:53'),
+(3, '1', '3', 'assigned', 1, '2016-12-28 16:59:53', '2016-12-28 17:02:57'),
+(4, '3', '2', 'assigned', 8, '2016-12-28 17:12:32', '2016-12-28 11:42:32'),
+(5, '3', '3', 'assigned', 8, '2016-12-28 17:12:32', '2016-12-28 11:42:32'),
+(6, '3', '4', 'assigned', 8, '2016-12-28 17:12:32', '2016-12-28 11:42:32');
 
 -- --------------------------------------------------------
 
@@ -62,7 +72,8 @@ CREATE TABLE `candidates` (
 
 INSERT INTO `candidates` (`id`, `fname`, `lname`, `email_id`, `phone`, `category_id`, `comment`, `resume_file`, `created`, `modified`) VALUES
 (2, 'test', 'user', 'test@gmail.com', '9950162420', 1, 'dfdfdfdfdf', '1482550960_Rohan Julka CV build 1_24-Sep-11_10-04-54.docx', '2016-12-24 04:53:25', '2016-12-24 10:12:40'),
-(3, 'yogesh', 'Patel', 'yogesh@gmail.com', '9950162420', 1, 'ererer', '1482632168_Rohan Julka CV build 1_24-Sep-11_10-04-54.docx', '2016-12-24 13:06:42', '2016-12-27 13:21:23');
+(3, 'yogesh', 'Patel', 'yogesh@gmail.com', '9950162420', 1, 'ererer', '1482632168_Rohan Julka CV build 1_24-Sep-11_10-04-54.docx', '2016-12-24 13:06:42', '2016-12-27 13:21:23'),
+(4, 'Rohantest', 'Julkatest', 'rohan@gmail.com', '1234567890', 17, 'testing', '1482900152_ganpatchauhanResume.doc', '2016-12-28 16:42:32', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -87,9 +98,9 @@ CREATE TABLE `companies` (
 --
 
 INSERT INTO `companies` (`id`, `name`, `email_id`, `phone`, `category_id`, `about`, `technologies`, `created`, `modified`) VALUES
-(1, 'test', 'tst@g.com', '9950162420', 0, 'nbnbbn', 'a:2:{i:0;s:4:".net";i:1;s:9:"angularjs";}', '2016-12-27 17:55:56', '2016-12-27 12:52:58'),
-(2, 'test', 'tst@g.com', '9950162420', 0, 'nbnbbn', 'php,c#', '2016-12-27 18:18:55', '2016-12-27 12:48:55'),
-(3, 'test', 'tst@g.com', '9950162420', 0, 'nbnbbn', 'java,jquery', '2016-12-27 18:20:10', '2016-12-27 12:51:35');
+(1, 'PSI', 'tst@g.com', '9950162420', 0, 'nbnbbn', 'a:2:{i:0;s:4:".net";i:1;s:9:"angularjs";}', '2016-12-27 17:55:56', '2016-12-28 12:26:58'),
+(2, 'PWS', 'tst@g.com', '9950162420', 0, 'nbnbbn', 'a:2:{i:0;s:3:"php";i:1;s:6:"jquery";}', '2016-12-27 18:18:55', '2016-12-28 11:11:16'),
+(3, 'A3 Logics', 'tst@g.com', '9950162420', 17, 'nbnbbn', 'a:1:{i:0;s:3:"php";}', '2016-12-27 18:20:10', '2016-12-28 12:29:44');
 
 -- --------------------------------------------------------
 
@@ -992,12 +1003,12 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `assignments`
 --
 ALTER TABLE `assignments`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `candidates`
 --
 ALTER TABLE `candidates`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `companies`
 --

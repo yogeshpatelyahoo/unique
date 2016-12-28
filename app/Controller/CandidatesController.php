@@ -227,6 +227,16 @@ class CandidatesController extends AppController
 	 	));
 	 	return $this->response;
 	 }
+	 
+	 public function admin_view()
+	 {
+	 	$this->layout = false;
+	 	if($this->request->is('ajax')) {
+	 		$data = $this->Candidate->find('first',array('conditions'=>array('Candidate.id'=>$this->Encryption->decode($this->request->data['id']))));
+	 		$this->set('candidate',$data);
+	 		$this->render('admin_view');
+	 	}
+	 }
 }
     
    
