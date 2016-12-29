@@ -91,7 +91,7 @@
                     <thead>
                         <tr>
                             <th class="center">S.No.</th>
-            <th><?php echo $this->Paginator->sort('fname', 'Full Name'); ?></th>
+            <th><?php echo $this->Paginator->sort('name', 'Name'); ?></th>
             <th><?php echo $this->Paginator->sort('email_id', 'Email Id'); ?></th>
             <th><?php echo $this->Paginator->sort('phone', 'Phone'); ?></th>
             <th style="text-align: center">Action</th>

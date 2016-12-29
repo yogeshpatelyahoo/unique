@@ -2,57 +2,65 @@
     <?php
     //pr($company);
     echo $this->Form->button('&times;', array('class' => 'close closeModel', 'data-dismiss' => 'modal', 'aria-hidden' => true));
-    echo '<strong>Company Details</strong>';
+    echo '<strong>Candidate Details</strong>';
     ?>
 </div>
 <div class="modal-body modal-dialog modal-lg">
-    <div class="row">
-        <div class="col-md-12">
-          <div class="panel panel-default">
-
-            <div class="panel-body">
-                <div class="smart-wizard form-horizontal">
-                    <div id="wizard" class="swMain">
-                        <div class="form-group">
-                        <label for="" class="col-sm-3 control-label col-sm-offset-1">First Name </label>                            <div class="col-sm-7">
-                           <label for="" class="col-sm-12 control-label text_left col-sm-offset-1"><?php echo $candidate['Candidate']['fname'];?></label>   
+   
+<div class="row user-infos cyruxx">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-12 col-xs-offset-0 col-sm-offset-0 ">
+                <div class="panel panel-primary">
+                   
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-3 hidden-xs hidden-sm">
+                                <img class="img-circle"
+                                     src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=100"
+                                     alt="User Pic">
+                            </div>
+                                                        
+                            <div class=" col-md-9 col-lg-9 hidden-xs hidden-sm">
+                                <strong><?php echo ucfirst($candidate['Candidate']['fname']);?></strong><br>
+                                <table class="table table-user-information">
+                                    <tbody>
+                                    <tr>
+                                        <td>First Name:</td>
+                                        <td><?php echo ucfirst($candidate['Candidate']['fname']);?></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Last Name:</td>
+                                        <td><?php echo ucfirst($candidate['Candidate']['lname']);?></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Email Id</td>
+                                        <td><?php echo $candidate['Candidate']['email_id'];?></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone Number</td>
+                                        <td><?php echo $candidate['Candidate']['phone'];?></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Created</td>
+                                        <td><?php echo $candidate['Candidate']['created'];?></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-
-                        <div class="form-group">
-                        <label for="" class="col-sm-3 control-label col-sm-offset-1">Last Name </label>                            <div class="col-sm-7">
-                           <label for="" class="col-sm-12 control-label text_left col-sm-offset-1"><?php echo $candidate['Candidate']['lname'];?></label>   
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                        <label for="" class="col-sm-3 control-label col-sm-offset-1">Email Id </label>                            <div class="col-sm-7">
-                           <label for="" class="col-sm-12 control-label text_left col-sm-offset-1"><?php echo $candidate['Candidate']['email_id'];?></label>   
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                        <label for="" class="col-sm-3 control-label col-sm-offset-1">Phone Number</label>                            <div class="col-sm-7">
-                           <label for="" class="col-sm-12 control-label text_left col-sm-offset-1"><?php echo $candidate['Candidate']['phone'];?></label>   
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                        <label for="" class="col-sm-3 control-label col-sm-offset-1">Created</label>                            <div class="col-sm-7">
-                           <label for="" class="col-sm-12 control-label text_left col-sm-offset-1"><?php echo $candidate['Candidate']['created'];?></label>   
-                            </div>
-                        </div>
-                        
+                    </div>
+                    <div class="panel-footer">
+                        <button class="btn btn-sm btn-primary" type="button"
+                                data-toggle="tooltip"
+                                data-original-title="Send message to user"><i class="glyphicon glyphicon-envelope"></i></button>
                         
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-    </div>
+        </div> 
 </div>
-<div class="modal-footer">
-</div>
+
+
+
 <script>
     $(document).ready(function(){
         $('.closeModel').click(function(){

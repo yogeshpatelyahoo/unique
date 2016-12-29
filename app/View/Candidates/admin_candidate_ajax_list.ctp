@@ -28,6 +28,13 @@ $deleteUrl = 'admin/candidates/delete/';
                     <td class="center">
                         <div class="visible-md visible-lg hidden-sm hidden-xs">
                             <?php
+                            echo $this->Html->link('<i class="clip-search"></i>', 'javascript:void(0)',
+                            		array(
+                            				'class' => 'btn btn-xs btn-teal tooltips view_suggestion',
+                            
+                            				'onclick'=>"popUp('admin/candidates/view','".$candidateId."')",'escape' => false
+                            		));
+                            echo '&nbsp;';
                             echo $this->Html->link('<i class="fa fa-edit"></i>', array('controller' => 'candidates', 'action' => 'admin_edit', $candidateId), array('class' => 'btn btn-xs btn-teal tooltips', 'data-original-title' => 'Edit', 'data-placement' => 'top', 'escape' => false));
                             echo '&nbsp;';
                             echo $this->Html->link('<i class="fa fa-times fa fa-white"></i>', 'javascript:void(0)',

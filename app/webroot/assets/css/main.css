@@ -912,8 +912,8 @@ li.dropdown.current-user .dropdown-menu li a {
 /*	Panels and panel elements
 /* ---------------------------------------------------------------------- */
 .panel-heading {
-	background-color: #F5F4F9;
-	background-image: linear-gradient(to bottom, #F5F4F9 0%, #ECEAF3 100%);
+	/* background-color: #F5F4F9;
+	background-image: linear-gradient(to bottom, #F5F4F9 0%, #ECEAF3 100%); */
 	background-repeat: repeat-x;
 	border-bottom: 1px solid #CDCDCD;
 	border-radius: 6px 6px 0 0;
@@ -1225,7 +1225,7 @@ color: #AAAAAA !important;
 /*	Main Container and main content elements
 /* ---------------------------------------------------------------------- */
 .main-container {
-	margin-top: 48px;
+	margin-top: 55px;
 }
 .header-default .main-container {
 	margin-top: 0 !important;

@@ -63,7 +63,7 @@ class CompaniesController extends AppController
     	if ($this->Session->read('sort') != '') {
     		$order = array($this->Session->read('sort') => $this->Session->read('direction'));
     	}else{
-    		$order=array('modified'=>'desc');
+    		$order=array('created'=>'desc');
     	}
     	
     	if ($search != '') {
